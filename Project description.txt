@@ -1,0 +1,13 @@
+Customer Churn Prediction
+Description: Predict whether a customer will leave a service (e.g., telecom, SaaS, banking) using historical data.
+
+Process:
+	1.	Collect dataset (e.g., Kaggle: Customer Churn Dataset).
+	2.	Perform EDA (Exploratory Data Analysis) using Pandas, NumPy, and Seaborn.
+	3.	Build classification models (Random Forest, XGBoost) using scikit-learn.
+	4.	Deploy the model as an API using FastAPI + Docker.
+	5.	Host the API on Azure App Service.   
+
+Tech Purpose:
+	•	Azure App Service → Deploy API in the cloud.
+	•	Docker → Containerize the API for portability.

@@ -11,3 +11,20 @@ Process:
 Tech Purpose:
 	•	Azure App Service → Deploy API in the cloud.
 	•	Docker → Containerize the API for portability.
+
+After creating the prediciton model we want to deploy it using FastAPI and docker 
+
+1. Save Your Trained Model
+- First, save your trained model using joblib or pickle 
+
+2. Create a FastAPI App
+- Create a new file, main.py, and define your FastAPI app
+
+3. Create a requirements.txt
+- List dependencies
+
+4. Create a Dockerfile
+- Write a Dockerfile to containerize your API
+
+5. Build and Run Locally
+- Run these commands in your project folder:
